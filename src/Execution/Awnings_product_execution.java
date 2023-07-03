@@ -43,7 +43,7 @@ public class Awnings_product_execution extends Login_the_page {
 		driver.manage().window().maximize();
 //		Dimension dim=new Dimension(1024, 768);
 //		driver.manage().window().setSize(dim);
-		driver.get("https://blindmatrix.software/dashboard"); // https://curtainmatrix.co.uk/testingsource/contacts
+		driver.get("https://curtainmatrix.co.uk/testingsource/contacts"); // https://curtainmatrix.co.uk/testingsource/contacts
 
 		extents = new ExtentReports();
 		htmlReporter = new ExtentHtmlReporter("ExtentReport.html");
@@ -60,41 +60,41 @@ public class Awnings_product_execution extends Login_the_page {
 		Thread.sleep(5000);
 		}
 	
-//		@Test(priority = 2)
-//		public static void create_new_product() throws InterruptedException, IOException {
-//			New_product_add_general_info.open_setting();
-//			New_product_add_general_info.Create_new_Awnings_product();
-//	
-//		}
-//	
-//		@Test(priority = 3)
-//		public static void New_blind_product_creation() throws InterruptedException, IOException {
-//			New_Blindfabric_formsetup.numericXfield();
-//			New_Blindfabric_formsetup.numericYfield();
-//		New_Blindfabric_formsetup.price_group();
-//		New_Blindfabric_formsetup.Awnings_material();
-//		New_Blindfabric_formsetup.list_field();
-//		New_Blindfabric_formsetup.text_field();
-//		New_Blindfabric_formsetup.locationlist();
-//		New_Blindfabric_formsetup.numeric();
-//		Thread.sleep(2000);
-//
-//	}
-//
-//	@Test(priority = 4)
-//
-//	public static void Add_option() throws IOException, InterruptedException {
-//
-//		Add_Option.add_new_option();
-//		Add_Option.link_the_option();
-//		Add_Option.save_the_options();
-//	}
-//
-//	@Test(priority = 5)
-//	public static void List_Subfield() throws InterruptedException, IOException {
-//		Add_Option.subfield();
-//		Add_Option.threedotoptions();
-//	}
+		@Test(priority = 2)
+		public static void create_new_product() throws InterruptedException, IOException {
+			New_product_add_general_info.open_setting();
+			New_product_add_general_info.Create_new_Awnings_product();
+	
+		}
+	
+		@Test(priority = 3)
+		public static void New_blind_product_creation() throws InterruptedException, IOException {
+			New_Blindfabric_formsetup.numericXfield();
+			New_Blindfabric_formsetup.numericYfield();
+		New_Blindfabric_formsetup.price_group();
+		New_Blindfabric_formsetup.Awnings_material();
+		New_Blindfabric_formsetup.list_field();
+		New_Blindfabric_formsetup.text_field();
+		New_Blindfabric_formsetup.locationlist();
+		New_Blindfabric_formsetup.numeric();
+		Thread.sleep(2000);
+
+	}
+
+	@Test(priority = 4)
+
+	public static void Add_option() throws IOException, InterruptedException {
+
+		Add_Option.add_new_option();
+		Add_Option.link_the_option();
+		Add_Option.save_the_options();
+	}
+
+	@Test(priority = 5)
+	public static void List_Subfield() throws InterruptedException, IOException {
+		Add_Option.subfield();
+		Add_Option.threedotoptions();
+	}
 
 	@Test(priority = 6)
 	public static void Add_new_fabric_with_colour() throws InterruptedException, IOException {
